@@ -20,6 +20,6 @@ jobs:
       - uses: actions/checkout@v2
       - name: Test secrets
         run: |
-	  if [ -z "${BOGUS_SECRET}" ]; then
-	    exit 1
-	  fi
+          if [ -z "${BOGUS_SECRET}" ]; then
+            exit 1
+          fi
