@@ -13,8 +13,6 @@ on:
 jobs:
   shfmt:
     runs-on: ubuntu-latest
-    container:
-      image: archlinux:base-devel-20210131.0.14634
 
     steps:
       - uses: actions/checkout@v2
